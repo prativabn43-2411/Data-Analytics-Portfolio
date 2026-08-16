@@ -27,7 +27,8 @@ The objective of this project is to analyze delivery performance, identify facto
 
 ## Tableau Public Dashboard
 
-[View Interactive Dashboard](PASTE-YOUR-TABLEAU-PUBLIC-LINK-HERE)
+[View Interactive Dashboard] https://public.tableau.com/app/profile/prativa.baliarsingh/viz/TransLogixAnalytics/Dashboard1
+https://public.tableau.com/app/profile/prativa.baliarsingh/viz/TranslogixAnalytics2/Dashboard1
 
 ## Project Type
 
