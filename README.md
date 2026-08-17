@@ -28,3 +28,6 @@ This portfolio includes my projects related to:
 My goal is to build a career in **Data Analytics** and continuously improve my technical and analytical skills.
 
 Thank you for visiting my portfolio! 😊
+LinkedIn profile- linkedin.com/in/prativa-baliarsingh-279b033ab
+
+
