@@ -1,33 +1,69 @@
 # Hi, I'm Prativa Baliarsingh 👋
 
+### 📊 Aspiring Data Analyst | SQL | Excel | Power BI | Tableau | Python
+
 Welcome to my **Data Analytics Portfolio**!
 
-I am an aspiring **Data Analyst** with a background in **B.Sc. Physics (Hons.)**. I am passionate about working with data, finding meaningful insights, and creating interactive dashboards.
+I am an aspiring **Data Analyst** with a background in **B.Sc. Physics (Hons.)** and a strong interest in data analysis, visualization, and business insights.
 
-### 🛠️ Skills
+I enjoy working with data to **clean, analyze, visualize, and transform raw information into meaningful insights** that support better decision-making.
 
-* Excel
-* SQL
-* Power BI
+## 🛠️ Skills
+
+* **Excel** – Data Cleaning, Pivot Tables, VLOOKUP, XLOOKUP, INDEX-MATCH, Dashboarding
+* **SQL** – Joins, Subqueries, CTEs, Aggregations, Window Functions
+* **Power BI** – Data Modeling, DAX, Power Query, Interactive Dashboards
+* **Tableau** – Data Visualization, Calculated Fields, Interactive Dashboards
+* **Python** – Data Analysis & Visualization
+* **Data Analysis & Visualization**
+* **Generative AI & Prompt Engineering**
+
+## 📂 Featured Projects
+
+### 📈 Tableau Projects
+
+* **Translogix Delivery Delay Dashboard** – Delivery delay analysis and performance insights
+* **NexaServe IT Solutions Dashboard** – Business and service analytics
+* **Nykaa Dashboard** – E-commerce sales and product analysis
+* **Google Stock Analysis** – Stock performance and trend analysis
+
+### 📊 Power BI Projects
+
+* **NexaServe IT Solutions Dashboard**
+* Interactive business dashboards using **Power Query, DAX, KPIs, slicers, and visualizations**
+
+### 📑 Excel Projects
+
+* **Bhubaneswar Dataset Analysis**
+* Data cleaning, lookup functions, Pivot Tables, and business analysis
+
+### 🚢 Data Analysis Projects
+
+* **Titanic Dataset Analysis** – Passenger demographics, survival analysis, and data visualization
+
+## 🎯 What I'm Currently Learning
+
+* Advanced SQL
+* Data Analytics
+* Power BI & DAX
 * Tableau
-* Python
-
-### 📊 My Projects
-
-This portfolio includes my projects related to:
-
-* Data Analysis
-* Data Cleaning
-* SQL Queries
+* Python for Data Analysis
 * Business Intelligence
-* Interactive Dashboards
-* Data Visualization
+* Generative AI
 
-### 🎯 Career Goal
+## 🌱 My Goal
 
-My goal is to build a career in **Data Analytics** and continuously improve my technical and analytical skills.
+To build a strong career as a **Data Analyst** by continuously improving my analytical, technical, and problem-solving skills and working on real-world data projects.
 
-Thank you for visiting my portfolio! 😊
-LinkedIn profile- linkedin.com/in/prativa-baliarsingh-279b033ab
+## 🔗 Connect With Me
+
+💼 **LinkedIn:** [linkedin.com/in/prativa-baliarsingh-279b033ab](https://www.linkedin.com/in/prativa-baliarsingh-279b033ab/)
+
+📂 **GitHub:** You're already here! 😊
+
+---
+
+⭐ Feel free to explore my repositories and projects!
+
 
 
