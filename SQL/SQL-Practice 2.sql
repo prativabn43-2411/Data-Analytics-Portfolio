@@ -69,11 +69,15 @@ from employeeattendance;
 
 -- Q5. Find the number of completed years of service for each employee
 --     (tenure in years, from date_of_joining till today).
-
+select emp_id,emp_name,date_of_joining,
+timestampdiff (year, date_of_joining, curdate()) as tenure_years
+from EmployeeAttendance;
 
 -- Q6. Calculate the total number of hours each employee worked on a given work_date
 --     (using clock_in and clock_out).
-
+select emp_id,emp_name,work_date,
+timestampdiff(hour, clock_in, clock_out) as total_hours
+from EmployeeAttendance;
 
 -- Q7. Extract the hour at which each employee clocked in.
 select emp_name, clock_in,
@@ -85,9 +89,12 @@ select emp_name,clock_in
 from employeeattendance
 where time (clock_in) > "09:30:00";
 
-
 -- Q9. Find employees who worked more than 9 hours on a given day.
-
+select emp_id,emp_name,work_date,
+round(timestampdiff(minute, clock_in, clock_out) / 60, 2) as total_hours
+from EmployeeAttendance
+where clock_out is not null
+and timestampdiff(minute, clock_in, clock_out) > 9 * 60;
 
 -- Q10. Add 30 days to each employee's date_of_joining to find their
 --      probation completion date.
