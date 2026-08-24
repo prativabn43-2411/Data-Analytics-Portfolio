@@ -1,34 +1,46 @@
-# 🐾 WildTrack Conservation Alliance — SQL Project
+# 🐾 WildTrack Conservation Alliance — SQL Database & Wildlife Analytics
+
+---
 
 ## 📌 Project Overview
 
-A real-world **SQL database and wildlife analytics project** developed for the WildTrack Conservation Alliance.
+The **WildTrack Conservation Alliance SQL Project** is a real-world wildlife conservation database project designed to analyze and manage **animal tracking, GPS activity, species information, reserve data, and collar health**.
 
-The project analyzes wildlife tracking data to support **animal monitoring, GPS analysis, collar health, species analysis, reserve management, data quality, database security, and performance optimization**.
+The project demonstrates how **SQL and relational databases** can be used to solve real-world conservation problems and generate meaningful **operational and business insights**.
 
-## 🎯 Objectives
+---
 
-- Monitor tracked animals and GPS activity
-- Identify missing or insufficient GPS reports
-- Monitor collar battery health
-- Analyze species and reserve coverage
-- Detect abnormal animal movement
-- Maintain data integrity
-- Improve database performance
-- Implement database security and access control
+## 🎯 Project Objectives
+
+- 🦌 Monitor tracked animals and their GPS activity
+- 📍 Analyze wildlife movement and GPS reporting
+- 🔋 Monitor collar battery health
+- 🏞️ Analyze reserve-level animal coverage
+- 🧬 Analyze species populations and conservation status
+- ⚠️ Identify missing or insufficient GPS records
+- 🧹 Detect and manage data-quality issues
+- ⚡ Improve database performance using indexes
+- 🔐 Implement database security and access control
+- 📊 Generate actionable conservation insights
+
+---
 
 ## 🗄️ Database Structure
 
-The project contains 4 main tables:
+The project consists of **4 main relational tables**:
 
-- `Reserves`
-- `Species`
-- `Animals`
-- `GPSLogs`
+- `Reserves` — Stores conservation reserve information
+- `Species` — Stores wildlife species details
+- `Animals` — Stores tracked animal information
+- `GPSLogs` — Stores GPS tracking records
 
-### Relationship
+### 🔗 Table Relationships
 
 ```text
-Reserves ────┐
-             ├── Animals ──── GPSLogs
-Species ─────┘
+Reserves ──────┐
+               │
+               ▼
+            Animals ──────► GPSLogs
+               ▲
+               │
+Species ───────┘
