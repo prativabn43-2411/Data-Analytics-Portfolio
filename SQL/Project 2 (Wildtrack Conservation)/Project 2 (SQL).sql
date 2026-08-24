@@ -10519,7 +10519,11 @@ group by r.reserve_id,r.reserve_name;
 
 #45-- A recent firmware change altered how battery percentage gets reported by one collar model. 
 # Correct all currently stored battery readings for the affected reserve so they reflect the new calibration.
-
+update gpslogs g 
+inner join Animals a 
+on g.animal_id = a.animal_id
+set g.battery_level_pct = g.battery_level_pct * 0.9 
+where a.reserve_id = 2;
 
 #46-- Produce a single combined list of every reserve and every animal together — 
 # including reserves with zero animals and any animal record that's somehow missing its reserve — so nothing gets left out of the audit.
