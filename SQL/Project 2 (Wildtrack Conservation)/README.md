@@ -1,769 +1,456 @@
-🐾 WildTrack Conservation Alliance — SQL Database & Wildlife Analytics
+# 🐾 WildTrack Conservation Alliance — Wildlife Conservation SQL Project
 
-📌 Project Overview
+## 📌 Project Overview
 
-The WildTrack Conservation Alliance SQL Project is a real-world wildlife conservation database project designed to help rangers, biologists, veterinarians, data teams, and donor-relations teams manage and analyze wildlife tracking data.
+**WildTrack Conservation Alliance** is a wildlife conservation database project designed to demonstrate how SQL can be used to manage, analyze, and monitor wildlife tracking operations.
+
+The project models a real-world conservation environment where GPS collars are fitted to animals and continuously generate location, movement, temperature, and battery-health data.
+
+The database provides a centralized relational system for **reserves, species, animals, and GPS tracking logs**, helping conservation teams identify monitoring gaps, battery issues, unusual movement, data-quality problems, and reserve-level trends.
+
+---
 
-The project uses a relational database to manage:
+## 🎯 Project Objectives
 
-🏞️ Conservation reserves
+* Manage wildlife data using a normalized relational database.
+* Monitor individual animals and their GPS tracking history.
+* Identify inactive or under-reporting animals.
+* Monitor collar battery health and ageing equipment.
+* Analyze species populations and reserve coverage.
+* Detect and correct data-quality issues.
+* Improve query performance using indexing.
+* Implement role-based database security.
+* Convert operational conservation problems into actionable SQL insights.
 
-🐘 Wildlife species
+---
 
-🦌 Tracked animals
+## 🗄️ Database Architecture
 
-📍 GPS tracking logs
+The project contains **4 interconnected tables**:
 
-The project translates 75 real-world conservation scenarios into SQL solutions, covering data analysis, data quality, database design, performance optimization, and security.
+```text
+                 ┌──────────────┐
+                 │   Reserves   │
+                 └──────┬───────┘
+                        │
+                        │ 1 : Many
+                        ▼
+                 ┌──────────────┐
+                 │   Animals    │
+                 └──────┬───────┘
+                        │
+                        │ 1 : Many
+                        ▼
+                 ┌──────────────┐
+                 │   GPSLogs    │
+                 └──────────────┘
 
-🎯 Project Objectives
+                 ┌──────────────┐
+                 │   Species    │
+                 └──────┬───────┘
+                        │
+                        │ 1 : Many
+                        ▼
+                     Animals
+```
 
-Manage wildlife data using a structured relational database
+### Tables
 
-Monitor individual animals and their GPS history
+| Table      | Purpose                                                      |
+| ---------- | ------------------------------------------------------------ |
+| `Reserves` | Stores wildlife reserve information                          |
+| `Species`  | Stores species and conservation status                       |
+| `Animals`  | Stores individual tracked animals                            |
+| `GPSLogs`  | Stores GPS location, speed, temperature and battery readings |
 
-Identify animals with insufficient or missing GPS data
+The dataset contains **15 reserves, 25 species, 200 animals, and 9,760 GPS log records — 10,000 rows in total**.
 
-Monitor collar battery health
+---
 
-Analyze species populations and reserve coverage
+## 🧠 SQL Concepts Demonstrated
 
-Detect abnormal movement patterns
+This project covers a wide range of practical SQL concepts:
 
-Maintain data integrity and consistency
+### Basic SQL
 
-Improve query performance using indexes
+* `SELECT`
+* `WHERE`
+* `DISTINCT`
+* `ORDER BY`
+* `GROUP BY`
+* `HAVING`
 
-Implement database security and role-based access
+### Aggregation
 
-Create reusable database views for operational reporting
+* `COUNT()`
+* `COUNT(DISTINCT)`
+* `SUM()`
+* `AVG()`
+* `MIN()`
+* `MAX()`
 
-Convert SQL results into actionable conservation insights
+### Joins
 
-🗄️ Database Architecture
+* `INNER JOIN`
+* `LEFT JOIN`
+* `RIGHT JOIN`
+* `UNION`
+* Full Outer Join simulation
 
-The project consists of 4 core relational tables:
+### Advanced SQL
 
+* Subqueries
+* Correlated subqueries
+* CTEs (`WITH`)
+* `CASE` expressions
+* Window Functions
+* `PARTITION BY`
 
+### Window Functions
 
-                ┌──────────────┐
-                │   Reserves   │
-                └──────┬───────┘
-                       │
-                       │
-                ┌──────▼───────┐
-                │    Animals   │
-                └──────┬───────┘
-                       │
-                       │
-                ┌──────▼───────┐
-                │   GPSLogs    │
-                └──────────────┘
+The project demonstrates:
 
-                ┌──────────────┐
-                │   Species    │
-                └──────┬───────┘
-                       │
-                       └──────► Animals
-
-Main Relationships
-
-Reserve → Animals: One reserve can contain multiple tracked animals.
-
-Species → Animals: One species can have multiple tracked individuals.
-
-Animal → GPSLogs: One animal can generate multiple GPS records.
-
-This one-to-many structure allows analysis from an individual GPS ping all the way up to animal, species, reserve, and conservation-program levels.
-
-📊 Project Scale
-
-The source project describes:
-
-Dataset ComponentScale
-
-
-
-🦌 Tracked Animals
-
-200
-
-📍 GPS Logs
-
-9,760
-
-🗃️ Core Tables
-
-4
-
-📋 Business Cases
-
-75
-
-GPSLogs is the largest table and represents the continuously growing operational data generated by wildlife GPS collars.
-
-🔍 Business Problems Addressed
-
-The project addresses several real-world conservation challenges:
-
-🦌 Wildlife Tracking
-
-Monitor which animals are being tracked and where they belong.
-
-📍 GPS Monitoring
-
-Analyze continuous GPS data to understand animal movement and reporting patterns.
-
-🔋 Collar Battery Health
-
-Identify animals with low or declining collar battery levels before monitoring is lost.
-
-⚠️ Missing GPS Reports
-
-Identify animals that are reporting infrequently or have never reported.
-
-🏞️ Reserve Coverage
-
-Find reserves with insufficient or no monitored animals.
-
-🐾 Species Monitoring
-
-Identify species with low tracked populations and potential conservation priorities.
-
-🚨 Animal Activity
-
-Analyze movement speed and consecutive GPS readings to identify unusual activity.
-
-🧹 Data Quality
-
-Detect and prevent invalid, duplicate, missing, or inconsistent records.
-
-🔐 Database Security
-
-Provide different database privileges to researchers, veterinarians, and field staff.
-
-⚡ Database Performance
-
-Use appropriate indexes as GPS data grows.
-
-🧠 SQL Concepts Demonstrated
-
-1. Database Design & DDL
-
-CREATE DATABASE
-
-CREATE TABLE
-
-ALTER TABLE
-
-ADD CONSTRAINT
-
-ADD COLUMN
-
-MODIFY
-
-CREATE VIEW
-
-DROP VIEW
-
-CREATE INDEX
-
-CREATE USER
-
-DROP USER
-
-2. DML Operations
-
-INSERT
-
-SELECT
-
-UPDATE
-
-DELETE
-
-The project includes both analytical queries and operational data-maintenance scenarios.
-
-3. Constraints
-
-The database uses:
-
-PRIMARY KEY
-
-FOREIGN KEY
-
-NOT NULL
-
-UNIQUE
-
-CHECK
-
-Examples include:
-
-
-
-ALTER TABLE GPSLogs
-ADD CONSTRAINT Check_battery_level
-CHECK (battery_level_pct BETWEEN 0 AND 100);
-
-This prevents invalid battery readings from entering the database.
-
-Another example:
-
-
-
-ALTER TABLE Animals
-ADD CONSTRAINT Unique_tag_per_day
-UNIQUE (tag_code, collar_fitted_date);
-
-This prevents duplicate tag registration for the same date.
-
-🔗 SQL Joins
-
-The project demonstrates practical use of:
-
-INNER JOIN
-
-LEFT JOIN
-
-RIGHT JOIN through UNION
-
-Example
-
-
-
-SELECT
-    a.tag_code,
-    r.reserve_name,
-    g.battery_level_pct
-FROM Animals a
-INNER JOIN Reserves r
-    ON a.reserve_id = r.reserve_id
-INNER JOIN GPSLogs g
-    ON a.animal_id = g.animal_id;
-
-Joins allow information from different levels of the conservation database to be combined into meaningful analysis.
-
-📈 Aggregation & Business Analysis
-
-The project uses:
-
-COUNT()
-
-SUM()
-
-AVG()
-
-MIN()
-
-MAX()
-
-GROUP BY
-
-HAVING
-
-DISTINCT
-
-These techniques are used for:
-
-Animal counts
-
-GPS ping counts
-
-Species populations
-
-Average battery levels
-
-Reserve-level analysis
-
-Movement statistics
-
-Conservation monitoring
-
-🧩 CTEs & Subqueries
-
-Common Table Expressions are used for multi-step analysis.
-
-
-
-WITH AnimalSummary AS (
-    SELECT
-        animal_id,
-        COUNT(*) AS total_pings
-    FROM GPSLogs
-    GROUP BY animal_id
-)
-SELECT *
-FROM AnimalSummary
-WHERE total_pings < 5;
-
-This type of analysis can help identify animals whose collars may not be functioning correctly.
-
-The project also uses subqueries, including correlated subqueries, for problems such as finding the latest GPS record for each animal.
-
-🪟 Window Functions
-
-Advanced SQL window functions demonstrated include:
-
-ROW_NUMBER()
-
-RANK()
-
-DENSE_RANK()
-
-LAG()
-
-LEAD()
-
+```sql
 AVG() OVER()
-
 COUNT() OVER()
-
 MAX() OVER()
+DENSE_RANK() OVER()
+LAG() OVER()
+LEAD() OVER()
+```
 
-Example — Next Speed Reading
+These were used for moving averages, rankings, running totals, previous/next readings, and animal-level analysis.
 
+---
 
+## 🛠️ Database Management
 
+The project also demonstrates practical database administration concepts.
+
+### DDL
+
+```sql
+CREATE DATABASE
+CREATE TABLE
+ALTER TABLE
+CREATE VIEW
+CREATE INDEX
+```
+
+### DML
+
+```sql
+INSERT
+UPDATE
+DELETE
 SELECT
-    animal_id,
-    log_datetime,
-    speed_kmph,
-    LEAD(speed_kmph) OVER (
-        PARTITION BY animal_id
-        ORDER BY log_datetime
-    ) AS next_speed
-FROM GPSLogs;
+```
 
-This allows consecutive GPS readings to be compared for the same animal.
+### Constraints
 
-🏞️ Reusable SQL Views
+* Primary Keys
+* Foreign Keys
+* `NOT NULL`
+* `UNIQUE`
+* `CHECK`
 
-The project creates reusable views for recurring operational requirements.
+For example, battery readings are restricted to valid values between **0 and 100**, while negative animal ages are prevented through database constraints.
 
+---
+
+## 📊 Key Business Analysis
+
+The project translates **75 real-world conservation business cases** into SQL solutions.
+
+Some major analyses include:
+
+### 🐘 Animal Monitoring
+
+* Animals with fewer than 5 GPS pings
+* Animals that have stopped reporting for more than 10 days
+* Animals with no GPS reports
+* Latest coordinates for every tracked animal
+* Animal activity analysis
+
+### 🔋 Collar & Battery Monitoring
+
+* Lowest battery reading
+* Battery status classification
+* Average battery level
+* Reserves with average battery below 20%
+* Ageing collars requiring maintenance
+* Battery replacement planning
+
+### 🌳 Reserve Analysis
+
+* Reserves with zero collared animals
+* Animals per reserve
+* Reserve monitoring density
+* Three largest reserves
+* Reserves tracking more than 15 animals
+* Reserve-level animal and battery-health reporting
+
+### 🐅 Species Analysis
+
+* Species population counts
+* Species with fewer than 10 tracked individuals
+* Critically Endangered species analysis
+* Species distribution across reserves
+* Most-tracked species
+
+### 📍 GPS & Movement Analysis
+
+* Highest recorded speed
+* Average animal speed
+* Unusual movement detection
+* Nocturnal movement analysis
+* Recent GPS activity
+* Animal movement duration
+
+These analyses transform raw GPS and animal data into operational insights for rangers, biologists, and conservation teams.
+
+---
+
+## 👁️ SQL Views
+
+Three reusable views were created:
+
+```sql
 Reserve_Animal_Battery_level
-
-Provides reserve-level information such as:
-
-Animal count
-
-Average collar battery health
-
 animal_latest_snapshot
-
-Provides a simplified snapshot containing:
-
-Animal tag
-
-Species
-
-Reserve
-
-Latest battery level
-
 Critically_endengered_animals
+```
 
-Provides a reusable list of animals associated with Critically Endangered species.
+These views provide reusable datasets for dashboards, mobile applications, and recurring conservation reporting.
 
-Views reduce the need to repeatedly rebuild complex joins and analytical logic.
+For example, the reserve-level view combines:
 
-⚡ Database Performance & Indexing
+* Reserve
+* Animal count
+* Average battery health
 
-The project demonstrates both single-column and composite indexes.
+This avoids repeatedly rebuilding the same joins and aggregation logic.
 
-Composite Index — Animals
+---
 
+## ⚡ Query Optimization
 
+Because `GPSLogs` is the largest and fastest-growing table, indexes were implemented to improve query performance.
+
+### Indexes
+
+```sql
+CREATE INDEX Idx_gpslogs_animal_id
+ON GPSLogs(animal_id);
 
 CREATE INDEX Idx_Animals_reserve_animal
-ON Animals (reserve_id, animal_id);
-
-Composite Index — GPSLogs
-
-
+ON Animals(reserve_id, animal_id);
 
 CREATE INDEX idx_gpslogs_animal_date
-ON GPSLogs (animal_id, log_datetime);
+ON GPSLogs(animal_id, log_datetime);
+```
 
-The second index is particularly useful for queries that retrieve GPS records for a particular animal within a date range.
+The composite indexes are designed around actual query patterns, particularly searches involving animals/reserves and date ranges.
 
-🔐 Database Security
+---
 
-The project demonstrates least-privilege access control.
+## 🔐 Database Security
 
-Field Researcher
+The project demonstrates role-based access control using:
 
-A field researcher receives read-only access to relevant operational tables:
+```sql
+CREATE USER
+GRANT
+REVOKE
+DROP USER
+```
 
+Different permissions were designed for:
 
+* **Field Researchers** → Read-only access to animal and GPS information
+* **Lead Veterinarian** → Read and update access to animal records
+* **Researchers** → Controlled access based on their responsibilities
 
-GRANT SELECT
-ON project_2.animals
-TO 'Field_researcher'@'localhost';
+This demonstrates the principle of **least-privilege access** for sensitive wildlife-location data.
 
-GRANT SELECT
-ON project_2.gpslogs
-TO 'Field_researcher'@'localhost';
+---
 
-Lead Veterinarian
+## 🧹 Data Quality & Governance
 
-The veterinarian receives additional update permissions:
+SQL was used to identify and prevent common data-quality problems:
 
+| Data Issue                   | SQL Solution            |
+| ---------------------------- | ----------------------- |
+| Invalid battery percentage   | `CHECK` constraint      |
+| Negative animal age          | `CHECK` constraint      |
+| Duplicate tag registration   | `UNIQUE` constraint     |
+| Missing species              | `NOT NULL`              |
+| Invalid animal IDs           | Foreign Key             |
+| Orphan GPS records           | `LEFT JOIN` + `IS NULL` |
+| Extra spaces                 | `TRIM()`                |
+| Inconsistent capitalization  | `UPPER()`               |
+| Incorrect reserve assignment | `UPDATE`                |
 
+These techniques help maintain reliable and consistent conservation data.
 
-GRANT SELECT, UPDATE
-ON project_2.animals
-TO 'lead_veterinarian'@'localhost';
+---
 
-This demonstrates how different users can receive permissions according to their responsibilities.
+## 💡 Key Insights
 
-🧹 Data Quality & Validation
+The analysis highlights several important operational signals:
 
-The project addresses several data-quality scenarios:
+* Animals with insufficient GPS data may indicate collar problems.
+* Reserves with no collared animals represent monitoring gaps.
+* Species with fewer than 10 tracked individuals can require conservation attention.
+* Reserves with low average collar battery may require maintenance.
+* Unusual movement speeds can highlight potentially important events.
+* Orphaned GPS records can reveal data-integrity problems.
+* Composite indexes improve performance for combined filtering patterns.
+* Role-based permissions help protect sensitive animal-location data.
 
-Invalid battery percentages
+---
 
-Negative estimated ages
+## 📈 Business Impact
 
-Duplicate tag codes
+The database supports several real-world conservation activities:
 
-Missing species references
+**Field Patrol Planning**
+Identify movement patterns and highly active reserves to support patrol planning.
 
-Invalid animal IDs
+**Equipment Maintenance**
+Detect low-battery and ageing collars before monitoring is lost.
 
-Orphan GPS records
+**Animal Monitoring**
+Identify animals that have stopped reporting or have insufficient GPS data.
 
-Incorrect reserve assignments
+**Species Conservation**
+Identify species with low monitored populations and understand their reserve distribution.
 
-Inconsistent capitalization
+**Data Governance**
+Prevent invalid, duplicate, or inconsistent records.
 
-Unwanted whitespace
+**Performance**
+Use indexes to maintain efficient access as GPS data grows.
 
-Example:
+**Security**
+Provide different database permissions according to user responsibilities.
 
+---
 
+## 🧰 Tools & Technologies
 
-UPDATE Reserves
-SET reserve_name = TRIM(UPPER(reserve_name));
+* **MySQL**
+* **MySQL Workbench**
+* SQL
+* Relational Database Design
+* Data Analysis
+* Database Optimization
+* Database Security
 
-This helps standardize reserve names.
+---
 
-🐾 Key Conservation Insights
+## 📂 Project Structure
 
-The SQL analysis translates technical database operations into conservation-oriented findings.
+Recommended GitHub repository structure:
 
-FindingSQL TechniqueBusiness Meaning
+```text
+WildTrack-Conservation-SQL/
+│
+├── SQL/
+│   └── WildTrack_Conservation_Project.sql
+│
+├── Report/
+│   └── WildTrack_Conservation_Project_Report.pdf
+│
+└── README.md
+```
 
+---
 
+## 🚀 How to Run the Project
 
+### 1. Install MySQL
 
+Install **MySQL Server** and **MySQL Workbench**.
 
-Animals with fewer than 5 GPS pings
+### 2. Open the SQL file
 
-GROUP BY, COUNT, CASE
+Open:
 
-Possible collar malfunction
+```text
+WildTrack_Conservation_Project.sql
+```
 
-Reserves with zero collared animals
+in MySQL Workbench.
 
-LEFT JOIN, IS NULL
+### 3. Execute the script
 
-Potential monitoring gap
+Run the SQL script to:
 
-Species with fewer than 10 tracked animals
+* Create the database
+* Create tables
+* Insert data
+* Apply constraints
+* Execute analytical queries
+* Create views
+* Create indexes
+* Configure database users and permissions
 
-GROUP BY, HAVING
+### 4. Explore the analysis
 
-Potential conservation priority
+Run the individual SQL cases to explore wildlife monitoring, GPS activity, battery health, reserve analysis, data quality, performance, and security.
 
-Reserves averaging below 20% battery
+---
 
-AVG, GROUP BY, HAVING
+## 🎓 Learning Outcomes
 
-Possible equipment failure
+This project strengthened practical skills in:
 
-Orphaned GPS records
+* Relational database design
+* SQL querying
+* Data cleaning and validation
+* Complex joins
+* CTEs
+* Subqueries
+* Correlated subqueries
+* Window functions
+* Views
+* Indexing
+* Database constraints
+* User permissions
+* Business-oriented data analysis
 
-LEFT JOIN, IS NULL
+The project particularly focused on translating plain-language operational problems into practical SQL solutions.
 
-Data-integrity issue
+---
 
-Combined reserve/date filters
+## 👤 Author
 
-Composite indexes
+**Prativa Baliarsingh**
 
-Better dashboard performance
+Aspiring Data Analyst | SQL | Excel | Power BI | Tableau
 
-Different user permissions
+---
 
-GRANT / access control
+## ⭐ Project Highlights
 
-Improved security
+```text
+15        Reserves
+25        Species
+200       Animals
+9,760     GPS Logs
+10,000    Total Records
+75        Business Cases
+```
 
-📋 75 Real-World Business Cases
+### 🔎 Project Focus
 
-One of the strongest aspects of this project is that it converts 75 plain-language operational scenarios into SQL solutions.
+**Wildlife Conservation + SQL + Data Analysis + Database Management**
 
-The cases cover:
+---
 
-🦌 Animal Analysis
+## 📌 Conclusion
 
-Animal monitoring
+The WildTrack Conservation Alliance project demonstrates how SQL can move beyond basic querying and become a practical tool for operational decision-making.
 
-Age analysis
-
-Species distribution
-
-Animal activity
-
-Latest animal status
-
-📍 GPS Analysis
-
-GPS ping counts
-
-Reporting gaps
-
-Movement analysis
-
-Speed analysis
-
-Latest GPS readings
-
-Battery monitoring
-
-🔋 Collar Monitoring
-
-Low battery detection
-
-Battery validation
-
-Collar age
-
-Hardware maintenance
-
-🏞️ Reserve Analysis
-
-Animal coverage
-
-Reserve-level summaries
-
-Average age
-
-Average battery
-
-Reserve monitoring density
-
-🧬 Species Analysis
-
-Population counts
-
-Conservation status
-
-Critically Endangered species
-
-Low-population species
-
-🧹 Data Quality
-
-Duplicate records
-
-Invalid values
-
-Missing references
-
-Data standardization
-
-Referential integrity
-
-⚡ Performance
-
-Index creation
-
-Composite indexes
-
-Query optimization
-
-🔐 Security
-
-User creation
-
-User removal
-
-Read-only access
-
-Veterinarian update access
-
-Role-based permissions
-
-💼 Business Impact
-
-The database can support:
-
-Field Patrol Planning — identify animals requiring attention.
-
-Equipment Maintenance — detect low-battery collars.
-
-Wildlife Monitoring — track movement and reporting behavior.
-
-Conservation Planning — identify vulnerable species and coverage gaps.
-
-Data Governance — maintain reliable and validated conservation data.
-
-Donor Reporting — provide reusable information about species and reserve activity.
-
-Research Activities — give researchers and veterinarians controlled access to operational data.
-
-🚧 Project Challenges
-
-1. Large GPS Dataset
-
-GPSLogs contains 9,760 records, making it the largest table in the project. Efficient indexing becomes important as GPS data continues to grow.
-
-2. Missing Data Detection
-
-The project distinguishes between:
-
-Animals that have some but very few GPS records
-
-Animals that have never reported
-
-These require different SQL approaches.
-
-3. Referential Integrity
-
-GPS records must correspond to registered animals. The database therefore uses foreign-key relationships and also includes scenarios for detecting orphaned records.
-
-4. Data Quality
-
-Manual data entry can introduce:
-
-Duplicate values
-
-Invalid values
-
-Formatting inconsistencies
-
-Incorrect relationships
-
-The project addresses these through SQL validation and constraints.
-
-5. Security
-
-Wildlife location information can be sensitive, so different users should receive only the permissions required for their responsibilities.
-
-🛠️ Technical Skills
-
-SQL
-
-Database Design
-
-Relational Database Management
-
-Data Modeling
-
-Data Cleaning
-
-Data Validation
-
-Joins
-
-Aggregation
-
-CTEs
-
-Subqueries
-
-Window Functions
-
-Views
-
-Constraints
-
-Indexing
-
-Query Optimization
-
-Database Security
-
-Role-Based Access Control
-
-Business Analysis
-
-📚 Key Learning Outcomes
-
-Through this project, I developed practical experience in:
-
-Translating real-world business requirements into SQL queries
-
-Designing and working with relational databases
-
-Writing analytical SQL queries
-
-Using advanced SQL techniques
-
-Working with hierarchical relationships
-
-Detecting data-quality problems
-
-Implementing database constraints
-
-Creating reusable views
-
-Improving query performance with indexes
-
-Managing database permissions
-
-Converting SQL outputs into actionable business insights
-
-🎯 Why This Project Matters
-
-This project goes beyond writing individual SQL queries.
-
-It demonstrates the complete thought process of:
-
-
-
-Business Problem
-       ↓
-Database Design
-       ↓
-Data Validation
-       ↓
-SQL Analysis
-       ↓
-Performance Optimization
-       ↓
-Security
-       ↓
-Conservation Insight
-       ↓
-Business Decision
-
-The goal is to demonstrate how SQL can function as a business and operational decision-making tool, not simply as a query language.
-
-👩‍💻 Author
-
-Prativa Baliarsingh
-
-Data Science & Data Analytics Enthusiast
-
-Core Skills: SQL • Excel • Power BI • Tableau • Data Analysis
-
-⭐ Project Highlights
-
-🐾 Wildlife Conservation Database
-
-📊 75 Real-World SQL Business Cases
-
-🗃️ 4-Table Relational Database
-
-📍 9,760 GPS Records
-
-🦌 200 Tracked Animals
-
-🔐 Database Security & Access Control
-
-⚡ Indexing & Query Performance
-
-🧠 Advanced SQL & Business Analysis
+From tracking animals and monitoring GPS activity to maintaining data quality, optimizing database performance, and controlling user access, the project showcases a complete relational database workflow for a realistic wildlife conservation scenario.
