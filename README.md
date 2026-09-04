@@ -10,14 +10,14 @@ I enjoy working with data to **clean, analyze, visualize, and transform raw info
 
 ## 🛠️ Skills
 
-Python – Python Fundamentals, Functions, OOP, NumPy, Pandas, Data Cleaning, EDA
-SQL – Joins, Subqueries, CTEs, Aggregations, Window Functions
-Excel – Data Cleaning, VLOOKUP, XLOOKUP, INDEX-MATCH, Pivot Tables, Dashboarding
-Power BI – Power Query, Data Modeling, DAX, KPI Cards, Slicers, Interactive Dashboards
-Tableau – Data Visualization, Calculated Fields, Interactive Dashboards
-Statistics & Probability – Descriptive Statistics, Data Interpretation, Analytical Concepts
-Generative AI – Prompt Engineering & AI-assisted Data Analysis
-Jupyter Notebook – Data Analysis, Visualization & Python Practice
+* **Python** – Python Fundamentals, Functions, OOP, NumPy, Pandas, Data Cleaning, EDA
+* **SQL** – Joins, Subqueries, CTEs, Aggregations, Window Functions
+* **Excel** – Data Cleaning, VLOOKUP, XLOOKUP, INDEX-MATCH, Pivot Tables, Dashboarding
+* **Power BI** – Power Query, Data Modeling, DAX, KPI Cards, Slicers, Interactive Dashboards
+* **Tableau** – Data Visualization, Calculated Fields, Interactive Dashboards
+* **Statistics & Probability** – Descriptive Statistics, Data Interpretation, Analytical Concepts
+* **Generative AI** – Prompt Engineering & AI-assisted Data Analysis
+* **Jupyter Notebook** – Data Analysis, Visualization & Python Practice
 
 ## 📂 Featured Projects
 
@@ -65,6 +65,5 @@ To build a strong career as a **Data Analyst** by continuously improving my anal
 ---
 
 ⭐ Feel free to explore my repositories and projects!
-
 
 
