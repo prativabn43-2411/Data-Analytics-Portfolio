@@ -58,7 +58,7 @@ To build a strong career as a **Data Analyst** by continuously improving my anal
 
 ## 🔗 Connect With Me
 
-💼 **LinkedIn:** [linkedin.com/in/prativa-baliarsingh-279b033ab](https://www.linkedin.com/in/prativa-baliarsingh-279b033ab/)
+💼 **LinkedIn:** linkedin.com/in/prativa-baliarsingh-data
 
 📂 **GitHub:** You're already here! 😊
 
