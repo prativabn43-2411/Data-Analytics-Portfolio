@@ -1,257 +1,194 @@
-# 📊 Power BI Projects
+# 📊 Power BI Portfolio
 
-Welcome to my **Power BI Projects** portfolio.
+Welcome to my **Power BI Portfolio**, where I showcase my hands-on projects in **data cleaning, data transformation, data modeling, DAX, data visualization, business intelligence, and interactive dashboard development**.
 
-This folder contains my hands-on Power BI projects focused on transforming raw data into **interactive dashboards, meaningful KPIs, and business insights**.
+This section of my Data Analytics Portfolio contains Power BI projects created to practice transforming raw datasets into meaningful dashboards and analytical reports.
 
-Through these projects, I am developing practical skills in **data cleaning, Power Query, data modeling, DAX, data visualization, dashboard design, and business analysis**.
-
----
-
-## 🎯 What I Do with Power BI
-
-I use Power BI to transform raw and structured datasets into interactive reports that help understand business performance and support data-driven decision-making.
-
-### 🔹 Data Preparation & Power Query
-
-I practice preparing data before analysis by:
-
-* Importing data from different sources
-* Cleaning and transforming datasets
-* Removing unnecessary columns and rows
-* Handling missing and inconsistent values
-* Changing data types
-* Creating calculated columns
-* Splitting and merging columns
-* Applying transformations using Power Query
-
-### 🔹 Data Modeling
-
-I practice building structured data models by:
-
-* Creating relationships between tables
-* Understanding primary and foreign keys
-* Working with fact and dimension tables
-* Creating appropriate relationships
-* Building models for efficient analysis
-
-### 🔹 DAX
-
-I use **DAX (Data Analysis Expressions)** to create calculations and analytical metrics.
-
-My practice includes:
-
-* Measures
-* Calculated columns
-* `SUM()`
-* `COUNT()`
-* `AVERAGE()`
-* `CALCULATE()`
-* `FILTER()`
-* `IF()`
-* `SWITCH()`
-* Date-based calculations
-* Percentage calculations
-* KPI calculations
-* Performance comparisons
-
-### 🔹 Interactive Dashboards
-
-I design dashboards that allow users to explore data interactively.
-
-I work with:
-
-* KPI Cards
-* Bar Charts
-* Column Charts
-* Line Charts
-* Donut/Pie Charts
-* Tables
-* Slicers
-* Filters
-* Drill-through
-* Interactive visuals
-
-### 🔹 KPI & Business Analysis
-
-I create KPIs to monitor important business metrics such as:
-
-* Revenue
-* Sales
-* Profit
-* Customer performance
-* Employee metrics
-* Renewal rate
-* Satisfaction score
-* Project performance
-* Product performance
-
-The goal is to make important metrics easy to understand at a glance.
+Through these projects, I have practiced working with different datasets, creating relationships between tables, developing DAX measures, designing interactive dashboards, and presenting data in a clear and structured way.
 
 ---
 
-## 📁 Power BI Projects
+## 👩‍💻 About Me
 
-### 💼 NexaServe IT Solutions
+**Prativa Baliarsingh**
 
-**Focus:** Business Performance & Analytics
+Data Analytics Learner | Power BI | Excel | SQL | Tableau | Python
 
-A Power BI dashboard project focused on analyzing business performance and presenting important metrics through interactive visuals.
-
-**Key Analysis:**
-
-* Total Employees
-* Total Revenue
-* Renewal Rate
-* Average Satisfaction Score
-* Client performance
-* Monthly revenue trends
-* Overdue projects
-* Top-performing clients
-
-**Power BI Skills Practiced:**
-
-* Power Query
-* Data Modeling
-* DAX
-* KPI Cards
-* Slicers
-* Interactive Visuals
-* Business Analysis
+I am building my skills in data analytics through hands-on projects and continuous learning. My focus is on developing practical skills in data preparation, analysis, visualization, and business intelligence.
 
 ---
 
-### 🛍️ Retail Analysis
+# 🎯 Power BI Learning Objectives
 
-**Focus:** Retail & Sales Performance
+Through my Power BI projects, I am focusing on:
 
-A Power BI project focused on analyzing retail data and understanding sales and business performance.
-
-**Key Analysis:**
-
-* Sales performance
-* Product analysis
-* Category performance
-* Customer insights
-* Revenue trends
-* KPI monitoring
-
-**Power BI Skills Practiced:**
-
-* Data Cleaning
-* Data Modeling
-* DAX Measures
-* Interactive Slicers
-* Charts & KPIs
-* Business Insights
+- Data cleaning
+- Data transformation
+- Data modeling
+- Table relationships
+- DAX calculations
+- KPI development
+- Interactive dashboards
+- Business intelligence
+- Exploratory data analysis
+- Data visualization
+- Business performance analysis
+- Dashboard design
+- Data storytelling
 
 ---
 
-### 🚢 Titanic Analysis
+# 📁 Power BI Projects
 
-**Focus:** Passenger & Survival Analysis
+## 1. 🏢 NexaServe IT Solutions
 
-A Power BI dashboard project based on Titanic passenger data, focusing on understanding passenger characteristics and survival patterns.
+**Folder:** `NexaServe-IT-Solutions/`
 
-**Key Analysis:**
+An interactive Power BI project developed to analyze different areas of business performance for NexaServe IT Solutions.
 
-* Survival rate
-* Passenger demographics
-* Gender-based analysis
-* Passenger class analysis
-* Age-based analysis
-* Survival comparisons
+The project contains multiple dashboards covering **employee performance, customer support, project delivery, and client revenue performance**.
 
-**Power BI Skills Practiced:**
+### 📊 Dashboard Pages
 
-* Data Transformation
-* DAX
-* Data Visualization
-* KPI Cards
-* Filters & Slicers
-* Interactive Dashboard Design
+- Employee Performance Dashboard
+- Support Analytics Dashboard
+- Project Delivery Dashboard
+- Client Revenue Performance Dashboard
 
----
+### 🔍 Key Analysis Areas
 
-## 🛠️ Power BI Skills
+- Employee performance
+- Customer support
+- Customer satisfaction
+- Project delivery
+- Client revenue
+- Business performance
+- Interactive filtering
 
-| Category         | Skills                                                  |
-| ---------------- | ------------------------------------------------------- |
-| Data Preparation | Power Query, Data Cleaning, Data Transformation         |
-| Data Modeling    | Relationships, Fact & Dimension Tables                  |
-| DAX              | Measures, Calculated Columns, CALCULATE, FILTER, SWITCH |
-| Visualization    | Bar, Column, Line, Donut, Cards, Tables                 |
-| Interactivity    | Slicers, Filters, Drill-through                         |
-| KPIs             | Revenue, Sales, Profit, Performance Metrics             |
-| Analysis         | Trend Analysis, Comparisons, Segmentation               |
-| Dashboard Design | Layout, Formatting, Visual Hierarchy                    |
-| Reporting        | Interactive Reports & Business Insights                 |
+### 🛠️ Power BI Concepts Practiced
 
----
-
-## 📊 Business Questions I Practice Answering
-
-My Power BI projects are designed around practical business questions such as:
-
-* What is the overall business performance?
-* How is revenue changing over time?
-* Which products or categories perform best?
-* Which customers or clients contribute the most?
-* What are the key performance indicators?
-* Which projects are overdue?
-* What factors influence customer or passenger outcomes?
-* How does performance change across different categories?
-* Where are the major opportunities for improvement?
+- Power Query
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Relationships
+- DAX
+- KPI Cards
+- Slicers
+- Interactive Visualizations
+- Dashboard Design
 
 ---
 
-## 📚 My Power BI Learning Journey
+## 2. 🛍️ Retail Analysis
 
-My approach to learning Power BI is:
+**Folder:** `Retail-Analysis/`
 
-**Import → Clean → Transform → Model → Calculate → Visualize → Analyze → Communicate**
+An interactive Power BI project developed to analyze retail business performance from multiple perspectives.
 
-I am focusing not only on creating attractive dashboards, but also on understanding the data and presenting insights that can support business decisions.
+The project focuses on **customers, orders, products, and suppliers**.
+
+### 📊 Dashboard Pages
+
+- Customer Insights Dashboard
+- Order Performance Dashboard
+- Products and Suppliers Dashboard
+
+### 🔍 Key Analysis Areas
+
+- Customer analysis
+- Customer insights
+- Order performance
+- Product performance
+- Supplier analysis
+- Business trends
+- Comparative analysis
+
+### 🛠️ Power BI Concepts Practiced
+
+- Power Query
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX
+- KPI Development
+- Slicers
+- Interactive Visualizations
+- Dashboard Design
+- Retail Data Analysis
 
 ---
 
-## 🚀 Currently Improving
+## 3. 🚢 Titanic Analysis
 
-I am continuously strengthening my Power BI skills in:
+**Folder:** `Titanic-Analysis/`
 
-* Advanced DAX
-* Time Intelligence
-* Advanced data modeling
-* Complex measures
-* Power Query transformations
-* Interactive dashboard design
-* Drill-through and dashboard navigation
-* KPI development
-* Business-focused data storytelling
+An interactive Power BI project developed to explore passenger information and survival patterns using the Titanic dataset.
+
+The dashboard allows users to analyze survival across different passenger characteristics.
+
+### 🔍 Key Analysis Areas
+
+- Passenger survival
+- Gender-based analysis
+- Passenger class
+- Age analysis
+- Fare analysis
+- Passenger characteristics
+- Survival pattern exploration
+
+### 🛠️ Power BI Concepts Practiced
+
+- Power Query
+- Data Cleaning
+- Data Transformation
+- DAX
+- Data Visualization
+- KPI Cards
+- Slicers
+- Filters
+- Interactive Dashboard Design
+- Exploratory Data Analysis
 
 ---
 
-## 🎓 Career Goal
+# 🛠️ Tools & Technologies
 
-My goal is to become a skilled **Data Analyst** by combining:
+The Power BI projects in this portfolio demonstrate practical use of:
 
-**Excel + SQL + Power BI + Tableau + Python**
-
-Power BI is helping me develop the ability to transform data into interactive reports and communicate analytical insights effectively.
+| Tool / Concept | Application |
+|---|---|
+| **Power BI** | Dashboard development and business intelligence |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | Measures and analytical calculations |
+| **Data Modeling** | Organizing data and creating relationships |
+| **KPI Cards** | Displaying important performance indicators |
+| **Slicers** | Interactive filtering |
+| **Charts & Visuals** | Presenting analytical findings |
+| **Interactive Dashboards** | Exploring data dynamically |
+| **Data Storytelling** | Communicating insights through visualizations |
 
 ---
 
-## 📌 Portfolio
+# 🔄 Power BI Project Workflow
 
-This Power BI folder is part of my overall **Data Analytics Portfolio**, which also includes:
+My Power BI projects generally follow a structured analytics workflow:
 
-* 📊 Excel
-* 🗄️ SQL
-* 📈 Power BI
-* 📉 Tableau
-* 🐍 Python *(currently learning)*
-
-I am continuously learning, practicing, and building projects to strengthen my data analytics skills.
-
-**— Prativa Baliarsingh**
-
+```text
+Raw Data
+    ↓
+Data Preparation
+    ↓
+Data Cleaning
+    ↓
+Data Transformation
+    ↓
+Data Modeling
+    ↓
+DAX Calculations
+    ↓
+Dashboard Development
+    ↓
+Interactive Analysis
+    ↓
+Business Insights
