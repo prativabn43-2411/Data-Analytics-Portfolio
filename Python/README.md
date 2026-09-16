@@ -1,329 +1,301 @@
-# 🐍 Python Practice & Portfolio
+# 🐍 Python Portfolio
 
-Welcome to my **Python Portfolio**! 👋
+Welcome to my **Python Portfolio**, where I showcase my hands-on learning and practice in **Python programming, data analysis, data manipulation, exploratory data analysis, and data visualization**.
 
-This repository contains my Python learning journey, practice problems, coding exercises, mini-projects, and data analysis programs. It is designed to build a strong foundation in Python for **Data Analysis, Data Science, and Machine Learning**.
+This section of my Data Analytics Portfolio focuses on building a strong Python foundation and applying Python concepts to practical data analytics problems.
 
----
-
-## 🎯 Objectives
-
-* Learn Python from fundamentals to advanced concepts
-* Improve problem-solving and logical thinking
-* Practice Python programming regularly
-* Work with data using Python
-* Build real-world mini-projects
-* Prepare for Data Analyst and Data Scientist roles
-
----
-
-## 🛠️ Technologies & Tools
-
-| Technology          | Purpose                     |
-| ------------------- | --------------------------- |
-| 🐍 Python           | Programming & Data Analysis |
-| 📓 Jupyter Notebook | Coding & Experimentation    |
-| 🐼 Pandas           | Data Manipulation           |
-| 🔢 NumPy            | Numerical Computing         |
-| 📊 Matplotlib       | Data Visualization          |
-| 📈 Seaborn          | Statistical Visualization   |
-| 💻 VS Code          | Code Editor                 |
-| 🌐 Git & GitHub     | Version Control & Portfolio |
-
----
-
-## 📚 Python Topics Covered
-
-### 1. Python Basics
-
-* Variables
-* Data Types
-* Input & Output
-* Type Conversion
-* Operators
-* Comments
-* Basic Syntax
-
-### 2. Strings
-
-* String indexing
-* String slicing
-* String methods
-* String formatting
-* Character manipulation
-
-### 3. Conditional Statements
-
-* `if`
-* `elif`
-* `else`
-* Nested conditions
-* Logical operators
-
-### 4. Loops
-
-* `for` loop
-* `while` loop
-* Nested loops
-* `break`
-* `continue`
-* `pass`
-
-### 5. Data Structures
-
-* Lists
-* Tuples
-* Sets
-* Dictionaries
-* Nested data structures
-
-### 6. Functions
-
-* Creating functions
-* Parameters & arguments
-* Return statements
-* Default arguments
-* Keyword arguments
-* Lambda functions
-
-### 7. Object-Oriented Programming
-
-* Classes & Objects
-* Constructors
-* Instance methods
-* Inheritance
-* Encapsulation
-* Polymorphism
-
-### 8. File Handling
-
-* Reading files
-* Writing files
-* Appending data
-* Working with CSV files
-
-### 9. Exception Handling
-
-* `try`
-* `except`
-* `else`
-* `finally`
-* Custom exceptions
-
-### 10. Python for Data Analysis
-
-* NumPy
-* Pandas
-* Data cleaning
-* Data filtering
-* Missing values
-* GroupBy
-* Aggregation
-* Data transformation
-* Data visualization
-
----
-
-## 📝 Practice Questions
-
-This repository includes **100+ Python practice questions** covering beginner to intermediate-level concepts.
-
-The questions are organized by topic so that learning and revision become easier.
-
-Example:
-
-```python
-# Find the largest number among three numbers
-
-a = 10
-b = 25
-c = 15
-
-largest = max(a, b, c)
-
-print("Largest number:", largest)
-```
-
----
-
-## 📂 Repository Structure
-
-```text
-Python-Portfolio/
-│
-├── README.md
-│
-├── 01_Python_Basics/
-│   ├── variables.py
-│   ├── data_types.py
-│   ├── operators.py
-│   └── input_output.py
-│
-├── 02_Strings/
-│   ├── string_indexing.py
-│   ├── string_slicing.py
-│   └── string_methods.py
-│
-├── 03_Conditional_Statements/
-│   ├── if_else.py
-│   └── nested_conditions.py
-│
-├── 04_Loops/
-│   ├── for_loop.py
-│   ├── while_loop.py
-│   └── nested_loops.py
-│
-├── 05_Data_Structures/
-│   ├── lists.py
-│   ├── tuples.py
-│   ├── sets.py
-│   └── dictionaries.py
-│
-├── 06_Functions/
-│   ├── functions.py
-│   ├── lambda.py
-│   └── recursion.py
-│
-├── 07_OOP/
-│   ├── classes_objects.py
-│   ├── inheritance.py
-│   └── polymorphism.py
-│
-├── 08_File_Handling/
-│   ├── text_files.py
-│   └── csv_files.py
-│
-├── 09_Exception_Handling/
-│   └── exceptions.py
-│
-├── 10_Python_Data_Analysis/
-│   ├── numpy/
-│   ├── pandas/
-│   └── visualization/
-│
-├── 11_Practice_Questions/
-│   ├── beginner/
-│   ├── intermediate/
-│   └── advanced/
-│
-└── 12_Mini_Projects/
-    ├── project_01/
-    ├── project_02/
-    └── project_03/
-```
-
----
-
-## 🚀 Mini Projects
-
-Some upcoming projects in this portfolio:
-
-* 🧮 Calculator
-* 🎯 Number Guessing Game
-* 🏦 Bank Management System
-* 📊 Student Performance Analysis
-* 🛒 Sales Data Analysis
-* 📈 Expense Tracker
-* 🐼 Data Cleaning with Pandas
-* 📊 Exploratory Data Analysis (EDA)
-
----
-
-## 📈 My Learning Roadmap
-
-```text
-Python Basics
-      ↓
-Data Structures
-      ↓
-Functions & OOP
-      ↓
-File Handling
-      ↓
-NumPy
-      ↓
-Pandas
-      ↓
-Data Cleaning
-      ↓
-Data Visualization
-      ↓
-Exploratory Data Analysis
-      ↓
-Machine Learning
-      ↓
-Data Science 🚀
-```
-
----
-
-## 💡 Why This Repository?
-
-I created this repository to:
-
-✅ Practice Python consistently
-✅ Document my learning journey
-✅ Improve problem-solving skills
-✅ Build practical projects
-✅ Showcase my coding skills
-✅ Create a professional Data Science portfolio
-
----
-
-## 📊 Skills in Progress
-
-```text
-Python        █████████░ 90%
-SQL           █████████░ 90%
-Excel         █████████░ 90%
-Power BI      ████████░░ 80%
-Tableau       ████████░░ 80%
-Statistics    ███████░░░ 70%
-Generative AI ███████░░░ 70%
-```
+My Python learning journey includes structured practice with Python fundamentals, data structures, functions, comprehensions, NumPy, Pandas, data cleaning, exploratory data analysis, and visualization.
 
 ---
 
 ## 👩‍💻 About Me
 
-Hi! I'm **Prativa Baliarsingh**, currently building my skills toward a career in **Data Science**.
+**Prativa Baliarsingh**
 
-My current learning areas include:
+Data Analytics Learner | Power BI | Excel | SQL | Tableau | Python
 
-* 🐍 Python
-* 🗄️ SQL
-* 📊 Excel
-* 📈 Power BI
-* 📉 Tableau
-* 🤖 Generative AI
-* 📐 Probability
-* 📊 Statistics
-
-I enjoy turning data into meaningful insights and continuously improving my technical and analytical skills.
+I am developing my data analytics skills through hands-on practice and projects. My focus is on understanding data, solving problems logically, analyzing datasets, and communicating useful findings through analytical tools and visualizations.
 
 ---
 
-## 🔗 Connect With Me
+# 🎯 Python Learning Objectives
 
-**GitHub:**
-[Add your GitHub profile link]
+Through my Python learning and projects, I am focusing on:
 
-**LinkedIn:**
-[Add your LinkedIn profile link]
+- Building strong Python fundamentals
+- Understanding programming logic
+- Working with Python data structures
+- Writing reusable functions
+- Solving analytical problems using Python
+- Manipulating datasets
+- Cleaning data
+- Performing exploratory data analysis
+- Working with NumPy and Pandas
+- Creating data visualizations
+- Applying Python to real-world data analytics problems
 
 ---
 
-## ⭐ Support
+# 📚 Python Topics Covered
 
-If you find this repository useful, consider giving it a ⭐ and following my journey!
+## 🔹 Python Fundamentals
 
-> **"Practice → Build → Analyze → Improve → Repeat."** 🚀
+- Variables
+- Data Types
+- Type Conversion
+- Input and Output
+- Operators
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Membership Operators
 
 ---
 
-### 📌 Status
+## 🔹 Strings
 
-🟢 **Actively Learning & Updating**
+- String indexing
+- String slicing
+- String methods
+- String formatting
+- String manipulation
 
-This repository will continue to grow as I learn new Python concepts, solve more problems, and build real-world projects.
+---
 
+## 🔹 Python Data Structures
+
+### Lists
+
+- Creating lists
+- Accessing list elements
+- List slicing
+- Adding elements
+- Removing elements
+- Sorting
+- List manipulation
+- List comprehensions
+
+### Tuples
+
+- Creating tuples
+- Tuple indexing
+- Tuple slicing
+- Tuple methods
+- Tuple unpacking
+
+### Sets
+
+- Creating sets
+- Adding elements
+- Updating sets
+- Set difference
+- Set intersection
+- Set operations
+
+### Dictionaries
+
+- Creating dictionaries
+- Accessing dictionary values
+- Dictionary methods
+- `get()`
+- `items()`
+- Nested dictionaries
+- Working with key-value pairs
+- Frequency analysis
+
+---
+
+# 🔀 Conditional Statements & Loops
+
+I have practiced Python control flow concepts including:
+
+- `if`
+- `elif`
+- `else`
+- Nested conditions
+- `for` loops
+- `while` loops
+- `break`
+- `continue`
+- Logical conditions
+- Scenario-based programming problems
+
+These concepts help build the programming logic required for solving data-related problems.
+
+---
+
+# 🧩 Functions & Modules
+
+I am also practicing reusable and modular Python programming concepts.
+
+### Functions
+
+- Defining functions
+- Function parameters
+- Arguments
+- Return values
+- Default arguments
+- Reusable functions
+- Problem-solving with functions
+
+### Modules
+
+- Importing modules
+- Using Python libraries
+- Understanding modules and packages
+- Working with built-in and external libraries
+
+---
+
+# ⚡ List Comprehensions
+
+I have practiced list comprehensions for creating and transforming lists efficiently.
+
+Examples of practice include:
+
+- Filtering values
+- Transforming values
+- Nested list comprehensions
+- Working with matrices
+- Generating new lists from existing data
+
+---
+
+# 🔢 NumPy
+
+NumPy is an important part of my Python data analytics learning.
+
+Topics include:
+
+- NumPy arrays
+- Array creation
+- Array indexing
+- Array slicing
+- Array operations
+- Mathematical operations
+- Working with multidimensional arrays
+- Basic numerical analysis
+
+---
+
+# 🐼 Pandas
+
+I am using Pandas for working with structured datasets and performing data analysis.
+
+Topics include:
+
+- Series
+- DataFrames
+- Creating DataFrames
+- Reading datasets
+- Selecting columns
+- Filtering rows
+- Sorting data
+- Handling missing values
+- Data transformation
+- Grouping data
+- Aggregation
+- Data exploration
+
+---
+
+# 🧹 Data Cleaning
+
+Python is also being used to practice data preparation and cleaning.
+
+Key areas include:
+
+- Identifying missing values
+- Handling missing data
+- Removing duplicates
+- Correcting data types
+- Filtering data
+- Renaming columns
+- Standardizing data
+- Preparing datasets for analysis
+
+---
+
+# 🔍 Exploratory Data Analysis
+
+I practice **Exploratory Data Analysis (EDA)** to understand datasets before building conclusions.
+
+Typical EDA activities include:
+
+- Understanding dataset structure
+- Inspecting columns
+- Checking data types
+- Summary statistics
+- Identifying patterns
+- Comparing variables
+- Exploring distributions
+- Finding unusual values
+- Understanding relationships between variables
+
+---
+
+# 📊 Data Visualization
+
+I am also developing skills in presenting analytical findings visually.
+
+Visualization practice includes:
+
+- Bar charts
+- Line charts
+- Histograms
+- Scatter plots
+- Distribution analysis
+- Comparative visualizations
+- Trend visualization
+
+The goal is to convert analytical results into visual information that is easier to understand.
+
+---
+
+# 🚢 Featured Project – Titanic Dataset Analysis
+
+The **Titanic Dataset Analysis** is a Python-based exploratory data analysis project.
+
+The project focuses on analyzing passenger information and exploring survival patterns across different passenger characteristics.
+
+### 🔍 Key Analysis Areas
+
+- Passenger demographics
+- Passenger survival
+- Gender-based analysis
+- Passenger class
+- Age analysis
+- Fare analysis
+- Relationships between important variables
+- Exploratory data analysis
+
+### 🛠️ Skills Applied
+
+- Python
+- Pandas
+- NumPy
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- Data Interpretation
+
+The project demonstrates how Python can be used to move from raw data to structured analysis and visual exploration.
+
+---
+
+# 🧠 Python Practice Approach
+
+My Python practice follows a structured approach:
+
+```text
+Understand the Problem
+        ↓
+Write the Code
+        ↓
+Predict the Output
+        ↓
+Run the Code
+        ↓
+Verify the Result
+        ↓
+Understand the Logic
