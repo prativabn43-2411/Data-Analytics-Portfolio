@@ -1,211 +1,193 @@
-# 📊 Tableau Projects
+# 📊 Tableau Portfolio
 
-Welcome to my **Tableau Projects** portfolio.
+Welcome to my **Tableau Portfolio**, where I showcase my hands-on practice and projects in **data visualization, dashboard development, business analysis, and data storytelling**.
 
-This folder showcases my practical work in **Tableau**, where I transform raw data into interactive, insightful, and business-focused dashboards. Through these projects, I am developing my skills in **data visualization, dashboard design, calculated fields, filters, parameters, KPIs, and analytical storytelling**.
+This section of my Data Analytics Portfolio contains interactive Tableau dashboards created using real-world and practice datasets.
 
----
-
-## 🎯 What I Do in Tableau
-
-My Tableau projects focus on turning data into clear and actionable insights.
-
-### 🔹 Data Visualization
-
-* Create interactive and easy-to-understand visualizations
-* Use bar charts, line charts, pie/donut charts, maps, KPI cards, and tables
-* Select appropriate visualizations based on business questions
-* Analyze trends, comparisons, distributions, and patterns
-
-### 🔹 Dashboard Development
-
-* Design interactive and professional dashboards
-* Build KPI cards to highlight important business metrics
-* Create dashboard layouts with clear visual hierarchy
-* Use containers, formatting, spacing, and consistent design
-* Focus on making dashboards user-friendly and decision-oriented
-
-### 🔹 Calculated Fields
-
-I practice creating calculated fields to perform analytical calculations such as:
-
-* Calculated KPIs
-* Percentage calculations
-* Growth and change calculations
-* Date-based calculations
-* Conditional logic
-* Aggregations and ratios
-* Business-specific metrics
-
-### 🔹 Filters & Parameters
-
-I use Tableau filters and parameters to make dashboards interactive, including:
-
-* Date filters
-* Category and dimension filters
-* Top N filters
-* Parameter-driven analysis
-* Interactive dashboard controls
-
-### 🔹 Advanced Tableau Concepts
-
-I am continuously strengthening my knowledge of:
-
-* Level of Detail (LOD) Expressions
-* Table Calculations
-* Aggregations
-* Date Functions
-* Sets and Groups
-* Parameters
-* Dashboard Actions
-* Interactive Filtering
-* KPI & Performance Analysis
-
-### 🔹 Data Analysis & Storytelling
-
-My goal is not only to create charts, but to answer meaningful business questions through data.
-
-I focus on:
-
-* Identifying trends and patterns
-* Comparing performance
-* Finding key drivers
-* Monitoring KPIs
-* Highlighting business problems
-* Presenting insights in a simple and understandable way
+Through these projects, I have practiced transforming data into meaningful visualizations, creating interactive dashboards, analyzing trends, and presenting insights in a clear and structured way.
 
 ---
 
-## 📁 Projects
+## 👩‍💻 About Me
 
-### 🚚 Translogix Analytics
+**Prativa Baliarsingh**
 
-**Focus:** Delivery Delay Analysis
+Data Analytics Learner | Power BI | Excel | SQL | Tableau | Python
 
-An interactive dashboard designed to analyze delivery delays and identify important factors affecting delivery performance.
-
-**Key Analysis:**
-
-* Delivery delay rate by route
-* Delay rate by driver experience level
-* Monthly delay trend
-* Current month vs previous month delay rate
-* KPI-based performance monitoring
-
-**Tableau Skills Practiced:**
-
-* Calculated Fields
-* Date Calculations
-* KPI Cards
-* Filters
-* Dashboard Design
-* Trend Analysis
-* Comparative Analysis
+I am building my skills in data analytics by working on practical projects and continuously improving my ability to analyze data, create dashboards, and communicate insights through visualizations.
 
 ---
 
-### 💼 NexaServe IT Solutions
+## 🎯 Tableau Learning Objectives
 
-**Focus:** Business & Performance Analytics
+Through my Tableau projects, I am focusing on:
 
-A Tableau dashboard project focused on transforming business data into interactive visual insights and performance indicators.
-
-**Key Skills Practiced:**
-
-* KPI visualization
-* Interactive dashboards
-* Business performance analysis
-* Filters and parameters
-* Calculated fields
-* Data visualization
-* Dashboard formatting
-
----
-
-### 📈 Google Stock
-
-**Focus:** Stock Market & Time-Series Analysis
-
-A Tableau project focused on analyzing stock market data and understanding price movement and trends over time.
-
-**Key Analysis:**
-
-* Stock price trends
-* Time-series analysis
-* Performance comparison
-* Market movement
-* Interactive date-based analysis
-
-**Tableau Skills Practiced:**
-
-* Line charts
-* Date analysis
-* Trend visualization
-* Calculated fields
-* Interactive filters
-* Dashboard storytelling
+- Data visualization
+- Interactive dashboard development
+- Exploratory data analysis
+- Business intelligence
+- Time-series analysis
+- Trend analysis
+- Comparative analysis
+- KPI visualization
+- Data storytelling
+- Dashboard design
+- Calculated fields
+- Filters and interactive controls
+- Dashboard actions
 
 ---
 
-## 🛠️ Tableau Skills
+# 📁 Tableau Projects
 
-| Category      | Skills                                                           |
-| ------------- | ---------------------------------------------------------------- |
-| Visualization | Bar Charts, Line Charts, Pie/Donut Charts, Maps, Tables          |
-| Dashboards    | Interactive Dashboards, KPI Cards, Containers, Dashboard Actions |
-| Calculations  | Calculated Fields, Aggregations, Ratios, Date Calculations       |
-| Analytics     | Trend Analysis, Comparative Analysis, KPI Analysis               |
-| Filters       | Dimension Filters, Date Filters, Top N Filters                   |
-| Advanced      | LOD Expressions, Table Calculations, Parameters, Sets            |
-| Design        | Layout, Formatting, Color Selection, Visual Hierarchy            |
-| Storytelling  | Business Insights, Data-Driven Storytelling                      |
+## 1. 📈 Google Stock Analysis
 
----
+**Folder:** `Google-Stock/`
 
-## 📚 My Tableau Learning Journey
+An interactive Tableau dashboard developed to analyze **Google (GOOGL) stock performance** and explore historical stock trends.
 
-I am continuously improving my Tableau skills by building practical projects and experimenting with different datasets.
+### Key Analysis Areas
 
-My learning approach includes:
+- Stock price trends
+- Historical price movements
+- Open and close prices
+- High and low prices
+- Trading volume
+- Time-based analysis
+- Interactive filtering
 
-**Learn → Practice → Build → Analyze → Improve**
+### Tools & Concepts
 
-Each project helps me understand how Tableau can be used to convert raw data into meaningful business insights.
+- Tableau Public
+- Time-Series Analysis
+- Calculated Fields
+- Filters
+- Interactive Dashboard Design
+- Financial Data Visualization
 
----
+### 🔗 Tableau Public
 
-## 🚀 Currently Improving
-
-I am currently focusing on:
-
-* Advanced calculated fields
-* LOD expressions
-* Advanced table calculations
-* Dashboard actions
-* Parameter-driven dashboards
-* Better dashboard UI/UX
-* Business-focused KPIs
-* Data storytelling
-* Building portfolio-ready dashboards
+[View Google Stock Dashboard on Tableau Public](https://public.tableau.com/app/profile/prativa.baliarsingh/viz/GoogleStocks_17852327227460/Dashboard1)
 
 ---
 
-## 🎓 Objective
+## 2. 🏢 NexaServe IT Solutions
 
-My objective is to become a strong **Data Analyst** by combining:
+**Folder:** `NexaServe-IT-Solutions/`
 
-**Excel + SQL + Power BI + Tableau + Python**
+An interactive Tableau project developed to analyze **employee performance and client revenue performance**.
 
-I am using practical projects to strengthen my analytical thinking and build a professional **Data Analytics Portfolio**.
+The project presents business information through multiple dashboards and focuses on exploring performance indicators and business trends.
+
+### Dashboards
+
+- Employee Performance Dashboard
+- Client Revenue Performance Dashboard
+
+### Key Analysis Areas
+
+- Employee performance
+- Workforce analysis
+- Client revenue
+- Revenue performance
+- Business performance
+- Comparative analysis
+- Interactive data exploration
+
+### Tools & Concepts
+
+- Tableau Public
+- Data Visualization
+- Calculated Fields
+- Filters
+- Dashboard Actions
+- Interactive Dashboard Design
+- Business Analysis
+
+### 🔗 Tableau Public
+
+[View NexaServe IT Solutions Dashboard on Tableau Public](https://public.tableau.com/app/profile/prativa.baliarsingh/viz/NexaServeITServiceAnalytics/Dashboard2)
 
 ---
 
-## 📌 Portfolio
+## 3. 🚚 Translogix Analytics
 
-This Tableau folder is part of my overall Data Analytics Portfolio, which also includes projects using **Excel, Power BI, and SQL**.
+**Folder:** `Translogix-Analytics/`
 
-Thank you for visiting my Tableau portfolio!
-I am continuously learning, practicing, and improving my data analytics skills. 🚀
+An interactive Tableau project focused on **transportation, logistics, route performance, transportation cost, and delivery delay analysis**.
 
-**— Prativa Baliarsingh**
+The project contains multiple dashboards that provide different perspectives of logistics and transportation data.
 
+### Dashboards
+
+- Translogix Analytics Dashboard
+- Route Analysis Dashboard
+- Transportation Cost Dashboard
+- Delivery Delay Dashboard
+
+### Key Analysis Areas
+
+- Transportation performance
+- Route analysis
+- Route comparison
+- Transportation costs
+- Cost trends
+- Delivery delays
+- Delivery performance
+- Logistics analysis
+- Interactive filtering
+
+### Tools & Concepts
+
+- Tableau Public
+- Data Visualization
+- Calculated Fields
+- Filters
+- Dashboard Actions
+- Trend Analysis
+- Comparative Analysis
+- Logistics Analytics
+- Dashboard Design
+
+---
+
+# 🛠️ Tools & Technologies
+
+The Tableau projects in this portfolio demonstrate practical use of:
+
+| Tool / Concept | Application |
+|---|---|
+| **Tableau Public** | Interactive dashboard development |
+| **Data Visualization** | Presenting data through charts and visual elements |
+| **Calculated Fields** | Creating analytical calculations |
+| **Filters** | Interactive data exploration |
+| **Dashboard Actions** | Connecting and interacting with dashboard elements |
+| **KPI Visualizations** | Displaying important performance indicators |
+| **Time-Series Analysis** | Understanding trends over time |
+| **Comparative Analysis** | Comparing categories and business dimensions |
+| **Data Storytelling** | Presenting information in a structured visual format |
+
+---
+
+# 🔄 Tableau Project Workflow
+
+My Tableau projects generally follow a structured analytics workflow:
+
+```text
+Raw Data
+    ↓
+Data Preparation
+    ↓
+Data Cleaning
+    ↓
+Data Analysis
+    ↓
+Calculated Fields
+    ↓
+Visualization
+    ↓
+Dashboard Development
+    ↓
+Interactive Analysis
+    ↓
+Data Storytelling
