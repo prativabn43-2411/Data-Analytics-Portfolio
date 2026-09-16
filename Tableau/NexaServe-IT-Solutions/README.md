@@ -4,9 +4,9 @@
 
 The **NexaServe IT Solutions Tableau Dashboard** is an interactive data visualization project developed to analyze IT service and business performance data.
 
-The project presents key information through interactive Tableau dashboards, helping users explore service performance, delivery-related metrics, and business trends in a clear and visual format.
+The project focuses on **employee performance and client revenue analysis**, presenting important business information through interactive Tableau dashboards.
 
-This project demonstrates practical skills in **Tableau, data visualization, dashboard design, calculated fields, filters, and data analysis**.
+This project demonstrates practical skills in **Tableau, data visualization, dashboard design, calculated fields, filters, and business analysis**.
 
 ---
 
@@ -14,12 +14,13 @@ This project demonstrates practical skills in **Tableau, data visualization, das
 
 The main objectives of this project are to:
 
-- Analyze IT service and business performance
-- Monitor service-related performance indicators
-- Explore delivery and operational trends
-- Identify patterns within the available business data
-- Create interactive and user-friendly dashboards
-- Present data-driven insights through Tableau visualizations
+- Analyze employee performance
+- Monitor workforce-related information
+- Analyze client revenue performance
+- Compare business performance across different dimensions
+- Identify patterns and trends in the available data
+- Build interactive and user-friendly Tableau dashboards
+- Present business insights through effective visualizations
 
 ---
 
@@ -31,40 +32,51 @@ Explore the complete interactive dashboard on Tableau Public:
 
 ---
 
-## 📊 Dashboard
+## 📊 Dashboard Pages
 
-The project includes Tableau visualizations focused on NexaServe IT Solutions' service and business performance.
+The project contains two Tableau dashboards focusing on different areas of business performance.
 
-### Key Analysis Areas
+### 1. Employee Performance Dashboard
 
-- IT service performance
-- Delivery performance
-- Business performance indicators
-- Performance trends
-- Comparative analysis
-- Interactive data exploration
+This dashboard focuses on employee-related information and performance analysis.
+
+**Key focus areas:**
+
+- Employee performance
+- Workforce analysis
+- Employee comparisons
+- Performance indicators
+- Interactive filtering and analysis
+
+![Employee Performance Dashboard](Employee%20Performance%20Dashboard%20%282%29.png)
 
 ---
 
-## 🖼️ Dashboard Preview
+### 2. Client Revenue Performance Dashboard
 
-### Client Revenue Performance Dashboard
+This dashboard focuses on client and revenue-related business performance.
+
+**Key focus areas:**
+
+- Client revenue analysis
+- Revenue performance
+- Client comparison
+- Business performance indicators
+- Revenue-related trends
+- Interactive analysis
 
 ![Client Revenue Performance Dashboard](Client%20revenue%20PerformanceDashboard.png)
-
-### Delivery Delay Dashboard
-
-![Delivery Delay Dashboard](Delivery%20Delay%20Dashboard.png)
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **Tableau Public** – Interactive dashboard development
-- **Data Visualization** – Presenting business and service trends
+- **Data Visualization** – Presenting business information visually
 - **Calculated Fields** – Supporting analytical calculations
 - **Filters** – Interactive data exploration
-- **Dashboard Design** – Combining multiple visualizations into an interactive report
+- **Dashboard Actions** – Enhancing dashboard interactivity
+- **Dashboard Design** – Combining multiple visualizations into structured reports
 
 ---
 
@@ -72,31 +84,33 @@ The project includes Tableau visualizations focused on NexaServe IT Solutions' s
 
 The project followed a structured data visualization workflow:
 
-**Data → Data Preparation → Analysis → Visualization → Dashboard Development → Interactive Analysis**
+**Data → Data Preparation → Data Analysis → Visualization → Dashboard Development → Interactive Analysis**
 
 ### 1. Data Preparation
 
 - Imported the required business data into Tableau
 - Reviewed available fields and data types
-- Prepared the dataset for analysis
+- Prepared the data for analysis and visualization
 
 ### 2. Data Analysis
 
-- Explored service and business-related information
-- Analyzed performance indicators
-- Examined trends and comparisons within the available data
+- Analyzed employee-related information
+- Explored client and revenue performance
+- Examined business trends and comparisons
+- Identified important performance indicators
 
 ### 3. Visualization
 
-- Created charts and visualizations
-- Selected appropriate visual formats for different analytical requirements
-- Used filters and interactive elements for exploration
+- Created charts and analytical visuals
+- Used suitable chart types for different analysis requirements
+- Applied filters and interactive elements
 
 ### 4. Dashboard Development
 
-- Combined visualizations into an interactive dashboard
-- Designed the layout for clear presentation
-- Added interactive features to support data exploration
+- Combined multiple visualizations into dashboards
+- Organized dashboard layouts for clear presentation
+- Added interactive features for data exploration
+- Designed dashboards for easier interpretation of business information
 
 ---
 
@@ -113,25 +127,23 @@ The project demonstrates the use of:
 - Calculated Fields
 - Dashboard Actions
 - Data Visualization
-- Dashboard Design
+- Business Performance Analysis
 
 ---
 
 ## 💡 Analysis Areas
 
-The dashboard can be used to explore different aspects of the NexaServe IT Solutions data, including:
+### 👩‍💼 Employee Performance
 
-### 🏢 Business Performance
-Explore available business performance indicators and trends.
-
-### 🚚 Delivery Performance
-Analyze delivery-related information and identify performance patterns.
+The Employee Performance Dashboard allows users to explore employee-related information and compare performance across available dimensions.
 
 ### 💰 Client Revenue
-Explore client revenue-related information and compare performance across available dimensions.
 
-### 📊 Service Analytics
-Examine IT service-related information through interactive visualizations.
+The Client Revenue Performance Dashboard helps analyze client revenue information and understand revenue performance across different business dimensions.
+
+### 📊 Business Performance
+
+The dashboards provide a visual overview of important business information, helping users explore trends, comparisons, and performance indicators.
 
 ---
 
@@ -149,6 +161,8 @@ This project helped me practice and demonstrate:
 - Interactive Reporting
 - Data Storytelling
 - Business Intelligence
+- Employee Performance Analysis
+- Revenue Analysis
 
 ---
 
@@ -158,7 +172,5 @@ This project helped me practice and demonstrate:
 NexaServe-IT-Solutions/
 │
 ├── README.md
-│
 ├── Client revenue PerformanceDashboard.png
-│
-└── Delivery Delay Dashboard.png
+└── Employee Performance Dashboard (2).png
