@@ -1,220 +1,227 @@
-# Hi, I'm Prativa Baliarsingh 👋
+# 👋 Hi, I'm Prativa Baliarsingh
 
-### 📊 Aspiring Data Analyst | SQL | Excel | Power BI | Tableau | Python
+### Data Analyst | Excel | SQL | Power BI | Tableau | Python
 
-Welcome to my **Data Analytics Portfolio**! 🚀
+Welcome to my **Data Analytics Portfolio**.
 
-I am an aspiring **Data Analyst** with a background in **B.Sc. Physics (Hons.)** and a strong interest in **data analysis, visualization, business intelligence, and problem-solving**.
+I am a Data Analyst with a **B.Sc. in Physics (Hons.)** and a strong interest in transforming raw data into clear, meaningful, and actionable insights.
 
-I enjoy working with data to **clean, analyze, visualize, and transform raw information into meaningful insights** that support better decision-making.
+My work focuses on **data cleaning, analysis, visualization, dashboard development, SQL querying, and business intelligence**. Through hands-on projects, I apply analytical tools to explore real-world datasets, identify patterns, answer business questions, and communicate findings effectively.
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technical Skills
 
-### 🐍 Python
+| Area              | Skills & Tools                                                                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Excel**         | Data Cleaning, Pivot Tables, VLOOKUP, XLOOKUP, INDEX-MATCH, IF/IFS, SUMIFS, COUNTIFS, AVERAGEIFS, Charts, Dashboards    |
+| **SQL**           | MySQL, Joins, CTEs, Subqueries, Aggregate Functions, CASE Statements, Window Functions, Views, Data Analysis Queries    |
+| **Power BI**      | Power Query, Data Transformation, Data Modeling, Relationships, DAX, KPI Cards, Slicers, Interactive Dashboards         |
+| **Tableau**       | Calculated Fields, Filters, Parameters, Table Calculations, LOD Expressions, Interactive Dashboards, Data Visualization |
+| **Python**        | Python Fundamentals, Data Structures, Functions, NumPy, Pandas, Data Cleaning, EDA, Data Visualization                  |
+| **Statistics**    | Descriptive Statistics, Mean, Median, Mode, Variance, Standard Deviation, Probability, Data Interpretation              |
+| **Generative AI** | Prompt Engineering, AI-Assisted Analysis, Productivity & Research Workflows                                             |
 
-* Python Fundamentals
-* Functions
-* Object-Oriented Programming (OOP)
-* NumPy
-* Pandas
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Jupyter Notebook
+---
+
+# 📂 Portfolio Projects
+
+My portfolio is organized by analytical tool so that each area can be explored separately.
+
+### 📗 Excel
+
+Hands-on projects involving:
+
+* Data cleaning and preparation
+* Lookup functions
+* Conditional formulas
+* Pivot Tables
+* Data analysis
+* Charts and dashboards
+* Business-oriented Excel analysis
+
+🔗 **[Explore Excel Projects](https://github.com/prativabn43-2411/Data-Analytics-Portfolio/tree/main/Excel)**
+
+---
 
 ### 🗄️ SQL
 
-* SQL Fundamentals
-* SELECT, WHERE, GROUP BY, HAVING
+Projects and practice covering:
+
+* Data exploration
 * Joins
-* Subqueries
 * CTEs
-* Aggregate Functions
-* Window Functions
-* Date & Time Functions
-* String Functions
-* Data Analysis Queries
+* Subqueries
+* Aggregate functions
+* CASE statements
+* Window functions
+* Views
+* Business-focused SQL analysis
 
-### 📗 Microsoft Excel
+#### Featured SQL Projects
 
-* Data Cleaning
-* VLOOKUP
-* XLOOKUP
-* INDEX-MATCH
-* IF / IFS
-* SUMIFS / COUNTIFS / AVERAGEIFS
-* Pivot Tables
-* Conditional Formatting
-* Charts & Visualizations
-* Dashboard Creation
+**🚇 Metro Transit Analysis**
+
+Analyzed transportation-related data using SQL to explore operational patterns and extract useful insights through analytical queries.
+
+**🦌 WildTrack Conservation Analysis**
+
+Used SQL to analyze wildlife tracking and conservation data, including animal activity, reserve information, and monitoring-related insights.
+
+🔗 **[Explore SQL Projects](https://github.com/prativabn43-2411/Data-Analytics-Portfolio/tree/main/SQL)**
+
+---
 
 ### 📊 Power BI
 
-* Power Query
-* Data Cleaning & Transformation
-* Data Modeling
-* Relationships
-* DAX
-* KPI Cards
-* Slicers
-* Interactive Visualizations
-* Dashboard Design
-* Business Intelligence
+Interactive dashboard projects focused on:
+
+* Data cleaning with Power Query
+* Data transformation
+* Data modeling
+* Table relationships
+* DAX calculations
+* KPI development
+* Slicers and filters
+* Business intelligence dashboards
+
+#### Featured Project
+
+**💻 NexaServe IT Solutions Dashboard**
+
+Developed an interactive business analytics dashboard using Power BI to examine business and service performance through KPIs, DAX measures, data modeling, and interactive visualizations.
+
+🔗 **[Explore Power BI Projects](https://github.com/prativabn43-2411/Data-Analytics-Portfolio/tree/main/Power-BI)**
+
+---
 
 ### 📈 Tableau
 
+Dashboard projects focused on visual storytelling, KPI analysis, trends, calculated fields, filters, parameters, and interactive analysis.
+
+#### Featured Projects
+
+**🚚 Translogix Delivery Delay Dashboard**
+
+Analyzed delivery delays and operational performance to identify patterns, trends, and areas affecting transportation performance.
+
+**💻 NexaServe IT Solutions Dashboard**
+
+Created an interactive Tableau dashboard to analyze business and service performance using KPIs and visual analysis.
+
+**🛍️ Nykaa Sales Dashboard**
+
+Analyzed e-commerce sales and product performance to understand sales trends, product behavior, and key business metrics.
+
+**📈 Google Stock Analysis**
+
+Explored historical Google stock data to analyze price movements and market trends through interactive visualizations.
+
+🔗 **[Explore Tableau Projects](https://github.com/prativabn43-2411/Data-Analytics-Portfolio/tree/main/Tableau)**
+
+---
+
+### 🐍 Python
+
+Python work focused on building a strong analytical programming foundation through structured practice and data analysis.
+
+Topics include:
+
+* Variables and Data Types
+* Operators
+* Strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Conditional Statements
+* Loops
+* Functions
+* List Comprehensions
+* NumPy
+* Pandas
+* Data Cleaning
+* Exploratory Data Analysis
 * Data Visualization
-* Calculated Fields
-* Filters
-* Parameters
-* Table Calculations
-* LOD Expressions
-* Interactive Dashboards
-* Data Analysis
 
-### 📐 Statistics & Probability
+#### Featured Project
 
-* Descriptive Statistics
-* Mean, Median & Mode
-* Variance & Standard Deviation
-* Probability Fundamentals
-* Data Interpretation
-* Analytical Concepts
+**🚢 Titanic Dataset Analysis**
 
-### 🤖 Generative AI
+Performed data cleaning and exploratory data analysis to investigate passenger demographics, survival patterns, and relationships between important variables.
 
-* Prompt Engineering
-* AI-assisted Data Analysis
-* Generative AI Tools
-* AI for Productivity & Learning
+🔗 **[Explore Python Projects](https://github.com/prativabn43-2411/Data-Analytics-Portfolio/tree/main/Python)**
 
 ---
 
-## 📂 Featured Projects
+# ⭐ Featured Portfolio Work
 
-### 📈 Tableau Projects
-
-**1. Translogix Delivery Delay Dashboard**
-
-* Analyzed delivery delays and operational performance.
-* Created interactive dashboards to identify delay patterns and performance trends.
-
-**2. NexaServe IT Solutions Dashboard**
-
-* Analyzed business and service performance.
-* Used interactive visualizations and KPIs to present important business insights.
-
-**3. Nykaa Sales Dashboard**
-
-* Analyzed e-commerce sales and product performance.
-* Created interactive visualizations to understand sales trends and product insights.
-
-**4. Google Stock Analysis**
-
-* Analyzed Google stock performance.
-* Studied price trends and historical stock movements through visualizations.
+| Project                                   | Tool               | Focus                                 |
+| ----------------------------------------- | ------------------ | ------------------------------------- |
+| 🚚 **Translogix Delivery Delay Analysis** | Tableau            | Transportation & Delivery Performance |
+| 💻 **NexaServe IT Solutions Dashboard**   | Power BI / Tableau | Business & Service Analytics          |
+| 🚇 **Metro Transit Analysis**             | SQL                | Transportation Data Analysis          |
+| 🦌 **WildTrack Conservation Analysis**    | SQL                | Wildlife & Conservation Analytics     |
+| 🛍️ **Nykaa Sales Dashboard**             | Tableau            | E-commerce & Product Analysis         |
+| 📈 **Google Stock Analysis**              | Tableau            | Financial & Trend Analysis            |
+| 🚢 **Titanic Dataset Analysis**           | Python             | Exploratory Data Analysis             |
+| 📗 **Bhubaneswar Dataset Analysis**       | Excel              | Data Cleaning & Business Analysis     |
 
 ---
 
-### 📊 Power BI Projects
+# 🔍 My Analytics Approach
 
-**NexaServe IT Solutions Dashboard**
+For my projects, I generally follow this workflow:
 
-* Created an interactive business analytics dashboard.
-* Used **Power Query, Data Modeling, DAX, KPI Cards, Slicers, and Interactive Visuals**.
-* Focused on presenting business performance and actionable insights.
+**Understand the Problem → Inspect the Data → Clean & Transform → Analyze → Visualize → Identify Insights → Communicate Findings**
 
----
-
-### 📑 Excel Projects
-
-**Bhubaneswar Dataset Analysis**
-
-* Performed data cleaning and analysis.
-* Used lookup functions, Pivot Tables, formulas, and visualizations.
-* Generated meaningful insights from the dataset.
+My goal is not only to use analytical tools, but also to understand **what the data means and how the findings can support better decisions**.
 
 ---
 
-### 🗄️ SQL Data Analysis Projects
+# 📚 Continuous Development
 
-**Metro Transit Analysis**
+I continue to strengthen my skills through:
 
-* Analyzed transportation and transit-related data using SQL.
-* Used joins, aggregations, subqueries, and analytical queries.
-
-**WildTrack Conservation Analysis**
-
-* Analyzed wildlife conservation data using SQL.
-* Used SQL queries to explore animal tracking and conservation-related insights.
-
----
-
-### 🚢 Python Data Analysis Projects
-
-**Titanic Dataset Analysis**
-
-* Analyzed passenger demographics and survival patterns.
-* Performed data cleaning, exploratory data analysis, and visualization using Python.
+* Advanced SQL querying
+* Python for data analysis
+* Power BI and DAX
+* Tableau dashboard development
+* Statistics and probability
+* Business intelligence
+* Real-world datasets
+* Data storytelling
+* End-to-end analytics projects
 
 ---
 
-## 🎯 What I'm Currently Learning
+# 🎯 Career Objective
 
-* Advanced SQL
-* Data Analytics
-* Power BI & DAX
-* Tableau
-* Python for Data Analysis
-* Statistics & Probability
-* Business Intelligence
-* Generative AI
+I am building my career in **Data Analytics**, with a focus on combining technical skills, analytical thinking, visualization, and business understanding.
+
+My goal is to transform complex data into **clear insights that can help organizations make informed decisions** while continuing to develop toward advanced analytics and Data Science roles.
 
 ---
 
-## 📚 My Learning Journey
+# 🤝 Connect With Me
 
-I am continuously improving my skills through:
+### Prativa Baliarsingh
 
-* 💻 Hands-on projects
-* 📊 Real-world datasets
-* 🧠 Problem-solving practice
-* 📈 Dashboard development
-* 🗄️ SQL query practice
-* 🐍 Python data analysis
-* 🤖 Generative AI exploration
+💼 **LinkedIn:**
+[linkedin.com/in/prativa-baliarsingh-data](https://www.linkedin.com/in/prativa-baliarsingh-data/)
 
-My goal is to combine **technical skills, analytical thinking, and business understanding** to solve real-world data problems.
+💻 **GitHub:**
+[github.com/prativabn43-2411](https://github.com/prativabn43-2411)
 
----
-
-## 🌱 My Career Goal
-
-My goal is to build a strong career as a **Data Analyst** and eventually grow into advanced roles in the field of **Data Science and Analytics**.
-
-I believe in continuous learning and enjoy turning **raw data into meaningful insights** that can help organizations make better decisions.
+📊 **Portfolio Repository:**
+[Data Analytics Portfolio](https://github.com/prativabn43-2411/Data-Analytics-Portfolio)
 
 ---
 
-## 🔗 Connect With Me
+## ⭐ Thanks for Visiting
 
-💼 **LinkedIn:** [Prativa Baliarsingh](https://www.linkedin.com/in/prativa-baliarsingh-data/)
+Thank you for exploring my Data Analytics Portfolio.
 
-📂 **GitHub:** You're already here! 😊
+This repository documents my practical learning, analytical projects, dashboards, SQL work, Python analysis, and continued development as a Data Analyst.
 
----
-
-## ⭐ Thank You for Visiting!
-
-Thanks for visiting my GitHub profile!
-
-Feel free to **explore my repositories, projects, and data analytics work**.
-
-⭐ If you find something interesting, don't forget to star the repository!
-
-**Let's connect, learn, and grow together! 🚀**
-
-
-
+Feel free to explore the individual project folders to see the **datasets, analysis, dashboards, reports, code, and insights** behind each project.
